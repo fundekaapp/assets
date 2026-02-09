@@ -1,0 +1,100 @@
+{
+  "Global": {
+    "primary": {
+      "$value": "#9584FF",
+      "$type": "color",
+      "$description": "Seed color / brand primary"
+    }
+  },
+
+  "light": {
+    "primary": { "$value": "#5F5791", "$type": "color" },
+    "onPrimary": { "$value": "#FFFFFF", "$type": "color" },
+    "primaryContainer": { "$value": "#E5DEFF", "$type": "color" },
+    "onPrimaryContainer": { "$value": "#473F77", "$type": "color" },
+
+    "secondary": { "$value": "#006A6A", "$type": "color" },
+    "onSecondary": { "$value": "#FFFFFF", "$type": "color" },
+    "secondaryContainer": { "$value": "#9CF1F1", "$type": "color" },
+    "onSecondaryContainer": { "$value": "#004F50", "$type": "color" },
+
+    "tertiary": { "$value": "#904B3C", "$type": "color" },
+    "onTertiary": { "$value": "#FFFFFF", "$type": "color" },
+
+    "background": { "$value": "#FDF8FF", "$type": "color" },
+    "onBackground": { "$value": "#1C1B20", "$type": "color" },
+    "surface": { "$value": "#FBF8FF", "$type": "color" },
+    "onSurface": { "$value": "#1B1B21", "$type": "color" },
+
+    "outline": { "$value": "#767680", "$type": "color" }
+  },
+
+  "dark": {
+    "primary": { "$value": "#C8BFFF", "$type": "color" },
+    "onPrimary": { "$value": "#30285F", "$type": "color" },
+    "primaryContainer": { "$value": "#473F77", "$type": "color" },
+    "onPrimaryContainer": { "$value": "#E5DEFF", "$type": "color" },
+
+    "secondary": { "$value": "#80D4D5", "$type": "color" },
+    "onSecondary": { "$value": "#003737", "$type": "color" },
+
+    "tertiary": { "$value": "#FFB4A4", "$type": "color" },
+    "onTertiary": { "$value": "#561F13", "$type": "color" },
+
+    "background": { "$value": "#141318", "$type": "color" },
+    "onBackground": { "$value": "#E5E1E9", "$type": "color" },
+    "surface": { "$value": "#131318", "$type": "color" },
+    "onSurface": { "$value": "#E4E1E9", "$type": "color" },
+
+    "outline": { "$value": "#90909A", "$type": "color" }
+  },
+
+  "light-high-contrast": {
+    "primary": { "$value": "#2C245A", "$type": "color" },
+    "onPrimary": { "$value": "#FFFFFF", "$type": "color" },
+    "background": { "$value": "#FDF8FF", "$type": "color" },
+    "onBackground": { "$value": "#000000", "$type": "color" }
+  },
+
+  "dark-high-contrast": {
+    "primary": { "$value": "#F3EDFF", "$type": "color" },
+    "onPrimary": { "$value": "#000000", "$type": "color" },
+    "background": { "$value": "#141318", "$type": "color" },
+    "onBackground": { "$value": "#FFFFFF", "$type": "color" }
+  },
+
+  "$themes": [
+    {
+      "id": "theme-light",
+      "name": "Light",
+      "selectedTokenSets": { "light": "enabled" }
+    },
+    {
+      "id": "theme-dark",
+      "name": "Dark",
+      "selectedTokenSets": { "dark": "enabled" }
+    },
+    {
+      "id": "theme-light-hc",
+      "name": "Light High Contrast",
+      "selectedTokenSets": { "light-high-contrast": "enabled" }
+    },
+    {
+      "id": "theme-dark-hc",
+      "name": "Dark High Contrast",
+      "selectedTokenSets": { "dark-high-contrast": "enabled" }
+    }
+  ],
+
+  "$metadata": {
+    "tokenSetOrder": [
+      "Global",
+      "light",
+      "dark",
+      "light-high-contrast",
+      "dark-high-contrast"
+    ],
+    "activeThemes": [],
+    "activeSets": ["Global"]
+  }
+}
